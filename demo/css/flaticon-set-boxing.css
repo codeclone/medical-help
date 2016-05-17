@@ -1,0 +1,71 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/04/2016 10:02
+  	*/
+
+@font-face {
+  font-family: "flaticon-set-boxing";
+  src: url("../fonts/flaticons/flaticon-set-boxing.eot");
+  src: url("../fonts/flaticons/flaticon-set-boxing.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticons/flaticon-set-boxing.woff") format("woff"),
+       url("../fonts/flaticons/flaticon-set-boxing.ttf") format("truetype"),
+       url("../fonts/flaticons/flaticon-set-boxing.svg#flaticon-set-boxing") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "flaticon-set-boxing";
+    src: url("../fonts/flaticons/flaticon-set-boxing.svg#flaticon-set-boxing") format("svg");
+  }
+}
+
+[class^="flatfeature-boxing-"]:before, [class*=" flatfeature-boxing-"]:before,
+[class^="flatfeature-boxing-"]:after, [class*=" flatfeature-boxing-"]:after {   
+  font-family: "flaticon-set-boxing";
+  font-style: normal;
+}
+
+.flatfeature-boxing-black:before { content: "\f100"; }
+.flatfeature-boxing-box:before { content: "\f101"; }
+.flatfeature-boxing-box-1:before { content: "\f102"; }
+.flatfeature-boxing-box-2:before { content: "\f103"; }
+.flatfeature-boxing-exercise:before { content: "\f104"; }
+.flatfeature-boxing-gym:before { content: "\f105"; }
+.flatfeature-boxing-gym-1:before { content: "\f106"; }
+.flatfeature-boxing-gym-10:before { content: "\f107"; }
+.flatfeature-boxing-gym-11:before { content: "\f108"; }
+.flatfeature-boxing-gym-2:before { content: "\f109"; }
+.flatfeature-boxing-gym-3:before { content: "\f10a"; }
+.flatfeature-boxing-gym-4:before { content: "\f10b"; }
+.flatfeature-boxing-gym-5:before { content: "\f10c"; }
+.flatfeature-boxing-gym-6:before { content: "\f10d"; }
+.flatfeature-boxing-gym-7:before { content: "\f10e"; }
+.flatfeature-boxing-gym-8:before { content: "\f10f"; }
+.flatfeature-boxing-gym-9:before { content: "\f110"; }
+.flatfeature-boxing-net:before { content: "\f111"; }
+.flatfeature-boxing-person:before { content: "\f112"; }
+.flatfeature-boxing-security:before { content: "\f113"; }
+.flatfeature-boxing-silhouette:before { content: "\f114"; }
+.flatfeature-boxing-silhouette-1:before { content: "\f115"; }
+.flatfeature-boxing-silhouette-2:before { content: "\f116"; }
+.flatfeature-boxing-silhouette-3:before { content: "\f117"; }
+.flatfeature-boxing-sport:before { content: "\f118"; }
+.flatfeature-boxing-sport-1:before { content: "\f119"; }
+.flatfeature-boxing-sport-2:before { content: "\f11a"; }
+.flatfeature-boxing-sport-3:before { content: "\f11b"; }
+.flatfeature-boxing-sport-4:before { content: "\f11c"; }
+.flatfeature-boxing-sport-5:before { content: "\f11d"; }
+.flatfeature-boxing-sport-6:before { content: "\f11e"; }
+.flatfeature-boxing-sport-7:before { content: "\f11f"; }
+.flatfeature-boxing-sports:before { content: "\f120"; }
+.flatfeature-boxing-sports-1:before { content: "\f121"; }
+.flatfeature-boxing-sports-2:before { content: "\f122"; }
+.flatfeature-boxing-sports-3:before { content: "\f123"; }
+.flatfeature-boxing-sports-4:before { content: "\f124"; }
+.flatfeature-boxing-sports-5:before { content: "\f125"; }
+.flatfeature-boxing-sports-6:before { content: "\f126"; }
+.flatfeature-boxing-sports-7:before { content: "\f127"; }
+.flatfeature-boxing-sports-8:before { content: "\f128"; }
+.flatfeature-boxing-two:before { content: "\f129"; }
