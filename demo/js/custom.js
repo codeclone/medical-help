@@ -1871,6 +1871,3 @@
     $window.on('resize', THEMEMASCOT.documentOnResize.init);
 
 })(jQuery);
-
-
-
