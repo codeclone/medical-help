@@ -965,53 +965,53 @@ footer.bg-deep {
 .bd10 {
   border: 10px solid #eeeeee;
 }
-.border-left {
+.bdl {
   border-left: 1px solid #dcdcdc;
 }
-.border-left-2px {
+.bdl2 {
   border-left: 2px solid #dcdcdc;
 }
-.border-right {
+.bdr {
   border-right: 1px solid #dcdcdc;
 }
-.border-right-5px {
+.bdr5 {
   border-right: 5px solid #dcdcdc;
 }
-.border-right-black {
+.bdr-black {
   border-right: 1px solid #222222;
 }
-.border-top {
+.bdt {
   border-top: 1px solid #dcdcdc;
 }
-.border-bottom {
+.bdb {
   border-bottom: 1px solid #eeeeee;
 }
-.border-bottom-2px {
+.bdb2 {
   border-bottom: 2px solid #eeeeee;
 }
-.border-top-black {
+.bdt-black {
   border-top: 1px solid #333333;
 }
-.border-bottom-black {
+.bdb-black {
   border-bottom: 1px solid #333333;
 }
-.border-bottom-dot-1px {
+.bdb-dot1 {
   border-bottom: 1px dashed #333333;
 }
-.border-bottom-gray {
+.bdb-gray {
   border-bottom: 1px solid #d3d3d3;
 }
-.border-gray {
+.bd-gray {
   border-color: #eeeeee !important;
 }
 /* -------- Border Radius ------ */
-.border-radius-10px {
+.bdrs10 {
   border-radius: 10px;
 }
-.border-radius-20px {
+.bdrs20 {
   border-radius: 20px;
 }
-.border-radius-50px {
+.bdrs50 {
   border-radius: 50%;
 }
 /* -------- List ---------- */
