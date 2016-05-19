@@ -71,7 +71,8 @@ COLOR CODE: #00A4EF
   outline-color: #00A4EF;
 }
 /* border-theme-color */
-.bd-tc {
+.bd-tc,
+.comment::after {
   border-color: #00A4EF !important;
 }
 .bdt-tc {
@@ -684,18 +685,19 @@ fieldset[disabled] .btn-tc.focus {
 }
 /* bg theme colored */
 .bg-tc,
-.under-line::before {
+.under-line::before,
+.testimonial.style1 .comment,
+.comment::after {
   background-color: #00A4EF !important;
 }
 .owl-theme .owl-dots .owl-dot.active span {
   background-color: #00A4EF !important;
 }
 /* background-theme-color-transparent */
-.bg-tct,
-.testimonial.style1 .comment {
+.bg-tct {
   background-color: rgba(0, 164, 239, 0.6) !important;
 }
-/* background-theme-color-transparent-1 */
+/* background-theme-color-transparent */
 .bg-tct1-1 {
   background-color: rgba(0, 164, 239, 0.1);
 }

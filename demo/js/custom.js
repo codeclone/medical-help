@@ -344,6 +344,8 @@
             });
         },
 
+
+
         /* ---------------------------------------------------------------------- */
         /* -------------------------- Background Parallax ----------------------- */
         /* ---------------------------------------------------------------------- */
@@ -1518,7 +1520,7 @@
                 var data_nav = ( $(this).data("nav") === undefined ) ? false: $(this).data("nav");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: 4000,
                     loop: true,
                     items: 1,
@@ -1869,3 +1871,6 @@
     $window.on('resize', THEMEMASCOT.documentOnResize.init);
 
 })(jQuery);
+
+
+

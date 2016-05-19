@@ -64,7 +64,8 @@
 }
 
 /* border-theme-color */
-.bd-tc {
+.bd-tc,
+.comment::after {
   border-color: @theme-color-1 !important;
 }
 .bdt-tc {
@@ -501,7 +502,9 @@ blockquote {
 
 /* bg theme colored */
 .bg-tc,
-.under-line::before {
+.under-line::before,
+.testimonial.style1 .comment,
+.comment::after {
   background-color: @theme-color-1 !important;
 }
 .owl-theme .owl-dots .owl-dot.active span {
@@ -509,12 +512,11 @@ blockquote {
 }
 
 /* background-theme-color-transparent */
-.bg-tct,
-.testimonial.style1 .comment {
+.bg-tct {
   background-color: fade(@theme-color-1, 60%) !important;
 }
 
-/* background-theme-color-transparent-1 */
+/* background-theme-color-transparent */
 .bg-tct1-1 {
   background-color: fade(@theme-color-1, 10%);
 }
