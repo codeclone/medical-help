@@ -5,17 +5,6 @@
 COLOR : Sky Blue
 COLOR CODE: #00A4EF
 ----------------------------------------- */
-/* text-theme-color */
-.text-tc {
-  color: #00A4EF !important;
-}
-.widget .twitter-feed li::after {
-  color: #00A4EF;
-}
-/* text-hover-theme-color */
-.text-htc:hover {
-  color: #00A4EF !important;
-}
 /* background-theme-color */
 .bg-tc,
 .about-doctor.social-icons.ficon-bordered a:hover {
@@ -70,7 +59,11 @@ COLOR CODE: #00A4EF
 .outline-border {
   outline-color: #00A4EF;
 }
-/* border-theme-color */
+/*  */
+/*
+ * border: theme-color
+ * -----------------------------------------------
+*/
 .bd-tc,
 .comment::after {
   border-color: #00A4EF !important;
@@ -87,7 +80,10 @@ COLOR CODE: #00A4EF
 .owl-theme .owl-dots .owl-dot span {
   border: 2px solid #00A4EF !important;
 }
-/* background-color-transparent */
+/*
+ * background-transparent: theme-color
+ * -----------------------------------------------
+*/
 .bg-tct,
 .post .entry-meta.meta-absolute,
 .schedule-box .thumb .overlay {
@@ -110,19 +106,6 @@ COLOR CODE: #00A4EF
 .icon-switcher {
   background: #00A4EF;
 }
-.stylish-header,
-.stylish-header:before {
-  background: rgba(0, 164, 239, 0.9);
-}
-.service-icon-box a {
-  background: rgba(0, 164, 239, 0.9);
-}
-.service-icon-box:hover a {
-  background: rgba(0, 164, 239, 0.95);
-}
-.testimonial.style1 .comment {
-  background: rgba(0, 164, 239, 0.85);
-}
 .tag-sale {
   background-color: #00A4EF;
 }
@@ -135,20 +118,24 @@ ul.list li::before,
 .post .entry-content .entry-title {
   color: #00A4EF;
 }
+.text-tc,
+.about-title span {
+  color: #00A4EF !important;
+}
+.widget .twitter-feed li::after {
+  color: #00A4EF;
+}
+/*
+ * text: hover-theme-color
+ * -----------------------------------------------
+*/
+.text-htc:hover {
+  color: #00A4EF !important;
+}
 /*
  * border: theme-color
  * -----------------------------------------------
 */
-.clients-logo img {
-  border: 1px solid #00A4EF;
-}
-.lll {
-  border: #00A4EF;
-}
-.border-10px {
-  border: 10px solid #00A4EF;
-}
-/* border-left-color */
 blockquote {
   border-left: 3px solid #00A4EF;
 }
@@ -687,7 +674,7 @@ fieldset[disabled] .btn-tc.focus {
 .bg-tc,
 .under-line::before,
 .testimonial.style1 .comment,
-.comment::after {
+.testimonial.style2 .comment {
   background-color: #00A4EF !important;
 }
 .owl-theme .owl-dots .owl-dot.active span {
@@ -724,6 +711,16 @@ fieldset[disabled] .btn-tc.focus {
 }
 .bg-tct1-9 {
   background-color: rgba(0, 164, 239, 0.9);
+}
+.stylish-header,
+.stylish-header:before,
+.service-icon-box a,
+.service-icon-box:hover a {
+  background: rgba(0, 164, 239, 0.9);
+}
+.testimonial.style1 .comment,
+.testimonial.style2 .comment {
+  background: rgba(0, 164, 239, 0.85);
 }
 /* background-theme-color-2 */
 .bg-tc2 {
@@ -807,7 +804,4 @@ fieldset[disabled] .btn-tc.focus {
 }
 .bg-tct3-90 {
   background-color: rgba(0, 143, 213, 0.9) !important;
-}
-.about-title span {
-  color: #00A4EF !important;
 }

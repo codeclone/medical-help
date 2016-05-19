@@ -5,19 +5,7 @@
 // Initialize Theme Variables 
 @import (reference) "../less-medical-help/variables.less";
 
-/* text-theme-color */
-.text-tc {
-  color: @theme-color-1 !important;
-}
-.widget .twitter-feed li::after {
-  color: @theme-color-1;
-}
-/* text-hover-theme-color */
-.text-htc {
-  &:hover {
-    color: @theme-color-1 !important;
-  }
-}
+
 /* background-theme-color */
 .bg-tc,
 .about-doctor.social-icons.ficon-bordered a:hover {
@@ -63,7 +51,11 @@
     outline-color: @theme-color-1;
 }
 
-/* border-theme-color */
+/*  */
+/*
+ * border: theme-color
+ * -----------------------------------------------
+*/
 .bd-tc,
 .comment::after {
   border-color: @theme-color-1 !important;
@@ -80,11 +72,14 @@
 .owl-theme .owl-dots .owl-dot span {
   border: 2px solid @theme-color-1 !important ;
 }
-
-/* background-color-transparent */
+/*
+ * background-transparent: theme-color
+ * -----------------------------------------------
+*/
 .bg-tct,.post .entry-meta.meta-absolute,.schedule-box .thumb .overlay {
   background-color: fade(@theme-color-1, 80%) !important;
 }
+
 /*
  * background: theme-color
  * -----------------------------------------------
@@ -103,25 +98,9 @@
   background: @theme-color-1;
 }   
 
-.stylish-header,.stylish-header:before {
-  background:  fade(@theme-color-1, 90%);
-}
-
-.service-icon-box a {
-  background:  fade(@theme-color-1, 90%);
-}
-.service-icon-box:hover a {
-  background:  fade(@theme-color-1, 95%);
-}
-
-.testimonial.style1 .comment {
-  background: fade(@theme-color-1, 85%);
-}
 .tag-sale {
   background-color: @theme-color-1;
 }
-
-
 
 /*
  * text: theme-color
@@ -130,27 +109,31 @@
 .title, ul.list li::before,.post .entry-content .entry-title {
   color: @theme-color-1;
 }
+.text-tc,
+.about-title span {
+  color: @theme-color-1 !important;
+}
+.widget .twitter-feed li::after {
+  color: @theme-color-1;
+}
+
+/*
+ * text: hover-theme-color
+ * -----------------------------------------------
+*/
+.text-htc {
+  &:hover {
+    color: @theme-color-1 !important;
+  }
+}
+
 /*
  * border: theme-color
  * -----------------------------------------------
 */
-.clients-logo img {
-  border: 1px solid @theme-color-1;
-}
-
-.lll {
-  border: @theme-color-1;
-}
-.border-10px {
-  border:10px solid @theme-color-1;
-}
-
-
-/* border-left-color */
 blockquote {
     border-left: 3px solid @theme-color-1;
 }
-
 
 /* border-top-color */
 .stylish-header:after{
@@ -176,7 +159,6 @@ blockquote {
   color: @white-base;
 }
 
-
 /*
  * btn-border
  * -----------------------------------------------
@@ -192,7 +174,6 @@ blockquote {
   color: @white-base;
 }
 
-
 /*
  * btn-dark
  * -----------------------------------------------
@@ -200,7 +181,6 @@ blockquote {
 .btn-dark.btn-tc {
   .button-variant(@btn-dark-color; @theme-color-1; @theme-color-1);
 }
-
 
 /*
  * btn-gray
@@ -501,10 +481,11 @@ blockquote {
 }
 
 /* bg theme colored */
+
 .bg-tc,
 .under-line::before,
 .testimonial.style1 .comment,
-.comment::after {
+.testimonial.style2 .comment {
   background-color: @theme-color-1 !important;
 }
 .owl-theme .owl-dots .owl-dot.active span {
@@ -544,12 +525,21 @@ blockquote {
 .bg-tct1-9 {
   background-color: fade(@theme-color-1, 90%);
 }
+.stylish-header,.stylish-header:before,
+.service-icon-box a,
+.service-icon-box:hover a {
+  background:  fade(@theme-color-1, 90%);
+}
+
+.testimonial.style1 .comment,
+.testimonial.style2 .comment {
+  background: fade(@theme-color-1, 85%);
+}
 
 /* background-theme-color-2 */
 .bg-tc2 {
   background-color: @theme-color-2;
 }
-
 /* background-theme-color-transparent-2 */
 .bg-tct2-1 {
   background-color: fade(@theme-color-2, 10%);
@@ -631,8 +621,4 @@ blockquote {
 }
 .bg-tct3-90 {
   background-color: fade(@theme-color-3, 90%) !important;
-}
-
-.about-title span {
-  color: @theme-color-1 !important;
 }
