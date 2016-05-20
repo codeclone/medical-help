@@ -11,7 +11,8 @@
       &::after {
         border-left-width: 9px;
         border-right-width: 9px;
-        bottom: 99px;
+        border-style: solid;
+        bottom: 100px;
         content: "";
         height: 18px;
         left: 28px;
@@ -46,7 +47,10 @@
   }
   .item::before {
     display: none;
-  }  
+  } 
+  .rating > li {
+    padding: 0px;
+  } 
 }
 
 /* -------- Testimonial-Style1 ---------- */
@@ -55,28 +59,23 @@
  
 .testimonial {
   &.style2 {
-    text-align: center; 
-
-    .comment {
-      padding: 25px 50px;
-      &::after {
-        border-left-width: 9px;
-        border-right-width: 9px;
-        bottom: 99px;
-        content: "";
-        height: 18px;
-        left: 28px;
-        position: absolute;
-        transform: rotate(45deg);
-        width: 18px;
-      }  
-
-      p {
-        color: @white-base;
-        font-size: 16px;
-        font-style: italic;
-        font-weight: 600;        
-      }
+    .comment::before {
+      border-left: 9px solid;
+      border-right: 9px solid;
+      border-style: solid;
+      content: "";
+      height: 18px;
+      left: 30px;
+      position: absolute;
+      top: 104px;
+      transform: rotate(45deg);
+      width: 18px;
+    }
+    p {
+      color: @white-base;
+      font-size: 16px;
+      font-style: italic;
+      font-weight: 600;        
     }
     .name {
       color: @gray-light;
@@ -86,13 +85,8 @@
     .title {
       color: @gray-darkgray;      
     }
-  }
-  .item {
-    position: relative;
-    overflow: hidden;
-    .thumb img {
-      margin: auto;
-      max-width: 75px;
+    .comment{
+      padding: 25px 50px;
     }
   }
   .item::before {

@@ -65,7 +65,8 @@ COLOR CODE: #00A4EF
  * -----------------------------------------------
 */
 .bd-tc,
-.comment::after {
+.comment::after,
+.testimonial.style2 .comment::before {
   border-color: #00A4EF !important;
 }
 .bdt-tc {
@@ -103,7 +104,8 @@ COLOR CODE: #00A4EF
 .nav-pills > li.active > a:focus,
 .table.table-bordered.class-time td:hover,
 .line-foot::after,
-.icon-switcher {
+.icon-switcher,
+.testimonial.style2 .comment {
   background: #00A4EF;
 }
 .tag-sale {
@@ -674,7 +676,7 @@ fieldset[disabled] .btn-tc.focus {
 .bg-tc,
 .under-line::before,
 .testimonial.style1 .comment,
-.testimonial.style2 .comment {
+.testimonial.style2 .comment::before {
   background-color: #00A4EF !important;
 }
 .owl-theme .owl-dots .owl-dot.active span {
@@ -717,10 +719,6 @@ fieldset[disabled] .btn-tc.focus {
 .service-icon-box a,
 .service-icon-box:hover a {
   background: rgba(0, 164, 239, 0.9);
-}
-.testimonial.style1 .comment,
-.testimonial.style2 .comment {
-  background: rgba(0, 164, 239, 0.85);
 }
 /* background-theme-color-2 */
 .bg-tc2 {

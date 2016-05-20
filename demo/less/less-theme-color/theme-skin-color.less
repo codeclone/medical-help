@@ -25,7 +25,7 @@
   }
 }
 .portfolio-filter a.active,
-.portfolio-filter a:hover{
+.portfolio-filter a:hover {
   background: @theme-color-1;
 }
 .pagination.theme-colored li.active a {
@@ -36,7 +36,7 @@
     color: @theme-color-1 !important;
 }
 /* box-shadow */
-.box-shadow,.feature-box .icon.ficon-border-effect ::after{
+.box-shadow,.feature-box .icon.ficon-border-effect ::after {
     -webkit-box-shadow: @theme-color-1;
     -moz-box-shadow: @theme-color-1;
     box-shadow: 0 0 0 3px @theme-color-1;
@@ -57,7 +57,8 @@
  * -----------------------------------------------
 */
 .bd-tc,
-.comment::after {
+.comment::after,
+.testimonial.style2 .comment::before {
   border-color: @theme-color-1 !important;
 }
 .bdt-tc {
@@ -94,10 +95,10 @@
 .nav-pills > li.active > a:focus,
 .table.table-bordered.class-time td:hover,
 .line-foot::after,
-.icon-switcher {
+.icon-switcher,
+.testimonial.style2 .comment  {
   background: @theme-color-1;
-}   
-
+}
 .tag-sale {
   background-color: @theme-color-1;
 }
@@ -485,7 +486,7 @@ blockquote {
 .bg-tc,
 .under-line::before,
 .testimonial.style1 .comment,
-.testimonial.style2 .comment {
+.testimonial.style2 .comment::before {
   background-color: @theme-color-1 !important;
 }
 .owl-theme .owl-dots .owl-dot.active span {
@@ -529,11 +530,6 @@ blockquote {
 .service-icon-box a,
 .service-icon-box:hover a {
   background:  fade(@theme-color-1, 90%);
-}
-
-.testimonial.style1 .comment,
-.testimonial.style2 .comment {
-  background: fade(@theme-color-1, 85%);
 }
 
 /* background-theme-color-2 */

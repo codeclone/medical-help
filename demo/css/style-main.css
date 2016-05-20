@@ -324,7 +324,7 @@ iframe {
 .inline-block {
   display: inline-block;
 }
-.display-block {
+.db {
   display: block;
 }
 .fullwidth {
@@ -5801,7 +5801,8 @@ blockquote p {
 .testimonial.style1 .comment::after {
   border-left-width: 9px;
   border-right-width: 9px;
-  bottom: 99px;
+  border-style: solid;
+  bottom: 100px;
   content: "";
   height: 18px;
   left: 28px;
@@ -5834,26 +5835,24 @@ blockquote p {
 .testimonial .item::before {
   display: none;
 }
+.testimonial .rating > li {
+  padding: 0px;
+}
 /* -------- Testimonial-Style1 ---------- */
 /* -------- Testimonial-Style2 ---------- */
-.testimonial.style2 {
-  text-align: center;
-}
-.testimonial.style2 .comment {
-  padding: 25px 50px;
-}
-.testimonial.style2 .comment::after {
-  border-left-width: 9px;
-  border-right-width: 9px;
-  bottom: 99px;
+.testimonial.style2 .comment::before {
+  border-left: 9px solid;
+  border-right: 9px solid;
+  border-style: solid;
   content: "";
   height: 18px;
-  left: 28px;
+  left: 30px;
   position: absolute;
+  top: 104px;
   transform: rotate(45deg);
   width: 18px;
 }
-.testimonial.style2 .comment p {
+.testimonial.style2 p {
   color: #fff;
   font-size: 16px;
   font-style: italic;
@@ -5867,13 +5866,8 @@ blockquote p {
 .testimonial.style2 .title {
   color: #a9a9a9;
 }
-.testimonial .item {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial .item .thumb img {
-  margin: auto;
-  max-width: 75px;
+.testimonial.style2 .comment {
+  padding: 25px 50px;
 }
 .testimonial .item::before {
   display: none;
