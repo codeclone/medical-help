@@ -5798,7 +5798,7 @@ blockquote p {
 .testimonial.style1 .comment {
   padding: 25px 50px;
 }
-.testimonial.style1 .comment::after {
+.testimonial.style1 .comment .comment::after {
   border-left-width: 9px;
   border-right-width: 9px;
   border-style: solid;
@@ -5838,9 +5838,10 @@ blockquote p {
 .testimonial .rating > li {
   padding: 0px;
 }
-/* -------- Testimonial-Style1 ---------- */
-/* -------- Testimonial-Style2 ---------- */
-.testimonial.style2 .comment::before {
+.testimonial.style2 .comment {
+  padding: 25px 50px;
+}
+.testimonial.style2 .comment .comment::before {
   border-left: 9px solid;
   border-right: 9px solid;
   border-style: solid;
@@ -5852,26 +5853,8 @@ blockquote p {
   transform: rotate(45deg);
   width: 18px;
 }
-.testimonial.style2 p {
-  color: #fff;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 600;
-}
-.testimonial.style2 .name {
-  color: #777777;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-}
-.testimonial.style2 .title {
-  color: #a9a9a9;
-}
-.testimonial.style2 .comment {
-  padding: 25px 50px;
-}
-.testimonial .item::before {
-  display: none;
-}
+/* -------- Testimonial-Style1 ---------- */
+/* -------- Testimonial-Style2 ---------- */
 /* -------- Testimonial-Style3 ---------- */
 /* -------- Testimonial-Style4 ---------- */
 /* -------- Testimonial-Style5 ---------- */
