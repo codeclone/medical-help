@@ -121,7 +121,8 @@ ul.list li::before,
   color: #00A4EF;
 }
 .text-tc,
-.about-title span {
+.about-title span,
+.testimonial.style3 .rating > li {
   color: #00A4EF !important;
 }
 .widget .twitter-feed li::after {
